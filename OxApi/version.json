@@ -2,8 +2,8 @@
   "version": 3,
   "app": "OxApi",
   "scope": "workspace",
-  "exportedAt": "2026-04-20T08:45:16.438Z",
-  "localHash": "14593656d9760640db60410f77c107bea8932278f7297f38f4d92d35e9ba703d",
+  "exportedAt": "2026-04-20T08:46:15.882Z",
+  "localHash": "e4503797e2d49f86747548853a4f57a747f74734e90628709cfc27817c7c5e95",
   "manifestPath": "manifest.json",
   "contentRoot": "content"
 }
