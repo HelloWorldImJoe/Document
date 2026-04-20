@@ -1,0 +1,73 @@
+{
+  "version": 3,
+  "exportedAt": "2026-04-20T08:56:25.891Z",
+  "preferences": {
+    "currentProjectId": "f72f63ba-f9fb-4c7e-a06c-a53085dca934",
+    "currentEnvironmentId": "1d5ae43e-b174-4989-b4da-c18208fb7bf2"
+  },
+  "projects": [
+    {
+      "id": "f72f63ba-f9fb-4c7e-a06c-a53085dca934",
+      "name": "2222222",
+      "description": "",
+      "ownerId": "local-user",
+      "baseHeaders": {
+        "DemoTest": "{{TITLE}}"
+      },
+      "createdAt": "2026-04-15T09:37:31.623Z",
+      "defaultEnvironmentId": "1d5ae43e-b174-4989-b4da-c18208fb7bf2"
+    }
+  ],
+  "environments": [
+    {
+      "id": "1d5ae43e-b174-4989-b4da-c18208fb7bf2",
+      "name": "环境 2",
+      "variables": {
+        "API_URL": "https://jsonplaceholder.typicode.com",
+        "TITLE": "rerum perferendis error quia ut eveniet"
+      },
+      "ownerProjectId": "f72f63ba-f9fb-4c7e-a06c-a53085dca934",
+      "isShared": false,
+      "createdAt": "2026-04-16T00:34:22.061Z",
+      "updatedAt": "2026-04-20T06:48:03.090Z"
+    },
+    {
+      "id": "e5890901-84f3-4a69-a9f1-9639ced4e3d7",
+      "name": "环境 1",
+      "variables": {
+        "API_URL": "https://jsonplaceholder.typicode.com"
+      },
+      "ownerProjectId": "f72f63ba-f9fb-4c7e-a06c-a53085dca934",
+      "isShared": false,
+      "createdAt": "2026-04-15T09:49:49.004Z",
+      "updatedAt": "2026-04-20T06:29:32.568Z"
+    }
+  ],
+  "groups": [
+    {
+      "id": "e0ddce5d-2e7f-4363-b9b6-67c1828f9bab",
+      "projectId": "f72f63ba-f9fb-4c7e-a06c-a53085dca934",
+      "name": "未命名分组",
+      "parentGroupId": null,
+      "sortOrder": 1,
+      "authorId": "local-user",
+      "createdAt": "2026-04-16T00:19:23.358Z",
+      "updatedAt": "2026-04-20T07:25:44.022Z",
+      "path": "2222222--f72f63ba/docs/未命名分组--e0ddce5d"
+    }
+  ],
+  "documents": [
+    {
+      "id": "4636b8e5-d022-4821-9cf7-939f6cc7dbbd",
+      "projectId": "f72f63ba-f9fb-4c7e-a06c-a53085dca934",
+      "title": "迷人语音2026",
+      "format": "markdown",
+      "authorId": "local-user",
+      "parentGroupId": null,
+      "sortOrder": 0,
+      "createdAt": "2026-04-15T09:37:33.749Z",
+      "updatedAt": "2026-04-20T08:45:05.554Z",
+      "path": "2222222--f72f63ba/docs/迷人语音2026--4636b8e5.md"
+    }
+  ]
+}
