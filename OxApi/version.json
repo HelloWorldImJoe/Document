@@ -1,10 +1,9 @@
 {
-  "version": 2,
+  "version": 3,
   "app": "OxApi",
-  "projectId": "f72f63ba-f9fb-4c7e-a06c-a53085dca934",
-  "projectName": "2222222",
-  "exportedAt": "2026-04-20T08:31:13.603Z",
-  "localHash": "86a01d14e49264ccec94f2efdf180dc46984a5b629100febad863054f3d8f311",
+  "scope": "workspace",
+  "exportedAt": "2026-04-20T08:32:34.115Z",
+  "localHash": "93e9d7d2e7ed2e8eabd243665d038ccbf6163da12791c55ba4e7182378bdc525",
   "manifestPath": "manifest.json",
   "contentRoot": "content"
 }

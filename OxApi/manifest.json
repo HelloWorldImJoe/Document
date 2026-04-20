@@ -1,17 +1,23 @@
 {
-  "version": 2,
-  "exportedAt": "2026-04-20T08:31:13.603Z",
-  "project": {
-    "id": "f72f63ba-f9fb-4c7e-a06c-a53085dca934",
-    "name": "2222222",
-    "description": "",
-    "ownerId": "local-user",
-    "baseHeaders": {
-      "DemoTest": "{{TITLE}}"
-    },
-    "createdAt": "2026-04-15T09:37:31.623Z",
-    "defaultEnvironmentId": "1d5ae43e-b174-4989-b4da-c18208fb7bf2"
+  "version": 3,
+  "exportedAt": "2026-04-20T08:32:34.115Z",
+  "preferences": {
+    "currentProjectId": "f72f63ba-f9fb-4c7e-a06c-a53085dca934",
+    "currentEnvironmentId": "1d5ae43e-b174-4989-b4da-c18208fb7bf2"
   },
+  "projects": [
+    {
+      "id": "f72f63ba-f9fb-4c7e-a06c-a53085dca934",
+      "name": "2222222",
+      "description": "",
+      "ownerId": "local-user",
+      "baseHeaders": {
+        "DemoTest": "{{TITLE}}"
+      },
+      "createdAt": "2026-04-15T09:37:31.623Z",
+      "defaultEnvironmentId": "1d5ae43e-b174-4989-b4da-c18208fb7bf2"
+    }
+  ],
   "environments": [
     {
       "id": "1d5ae43e-b174-4989-b4da-c18208fb7bf2",
@@ -47,7 +53,7 @@
       "authorId": "local-user",
       "createdAt": "2026-04-16T00:19:23.358Z",
       "updatedAt": "2026-04-20T07:25:44.022Z",
-      "path": "docs/未命名分组--e0ddce5d"
+      "path": "2222222--f72f63ba/docs/未命名分组--e0ddce5d"
     }
   ],
   "documents": [
@@ -61,7 +67,7 @@
       "sortOrder": 0,
       "createdAt": "2026-04-15T09:37:33.749Z",
       "updatedAt": "2026-04-20T07:52:19.646Z",
-      "path": "docs/迷人语音2026--4636b8e5.md"
+      "path": "2222222--f72f63ba/docs/迷人语音2026--4636b8e5.md"
     }
   ]
 }
