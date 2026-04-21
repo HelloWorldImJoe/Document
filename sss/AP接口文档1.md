@@ -105,13 +105,7 @@ asda
         "completed": false
       }
     }
-  },
-  "postProcess": [
-    {
-      "extract": "data.title",
-      "assignTo": "TITLE"
-    }
-  ]
+  }
 }
 ```
 我要测试一下我要测试一下
