@@ -19,62 +19,6 @@ asda
 
  asd
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-我要测试一下
-```api
-{
-  "method": "GET",
-  "url": "/todos/21",
-  "description": "描述接口1",
-  "status": {
-    "key": "in_progress"
-  },
-  "headers": {
-    "Accept": "application/json"
-  }
-}
-```
-
 我要测试一下
 
 我要测试一下
@@ -96,7 +40,9 @@ asda
   "responses": {
     "200": {
       "description": {
-        "title(string)": "对对对对对对"
+        "userId(number)": "用户的user id",
+        "title(string)": "对对对对对对",
+        "completed(boolean)": "是否完成"
       },
       "sample": {
         "userId": 3,
@@ -124,10 +70,47 @@ asda
 
 ```websocket
 {
-  "url": "wss://echo.websocket.events",
+  "url": "wss://devnet-rpc.shyft.to?api_key=Q_J-mr252_t3Y7zM",
   "description": "测试websocket",
   "waitForResponse": true,
-  "timeoutMs": 10000
+  "timeoutMs": 10000,
+  "messages": {
+    "default": {
+      "request": "{\n\"Ping\"\n}",
+      "description": {
+        "jsonrpc(string)": "测试的注释1_Default",
+        "error(object)": {
+          "message(string)": "测试的消息注释2_Default"
+        }
+      },
+      "sample": {
+        "jsonrpc": "2.0",
+        "error": {
+          "code": -32700,
+          "message": "Parse error"
+        },
+        "id": null
+      },
+      "waitForResponse": true,
+      "timeoutMs": 10000
+    },
+    "subscribe": {
+      "request": "{\n第二个消息体\n}",
+      "description": {
+        "jsonrpc(string)": "测试的注释_Subscribe"
+      },
+      "sample": {
+        "jsonrpc": "2.0",
+        "error": {
+          "code": -32700,
+          "message": "Parse error"
+        },
+        "id": null
+      },
+      "waitForResponse": true,
+      "timeoutMs": 10000
+    }
+  }
 }
 ```
 
