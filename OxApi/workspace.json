@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "exportedAt": "2026-04-21T00:19:14.106Z",
+  "versionId": "2026-04-21T00:19:06.867Z__353a5f3d",
+  "preferences": {
+    "currentProjectId": "60d50086-e6bd-49f3-9148-29bd45dfd1c4",
+    "currentEnvironmentId": "03440408-9d70-4237-b4eb-a87cbbfeb548"
+  },
+  "projects": [
+    {
+      "id": "60d50086-e6bd-49f3-9148-29bd45dfd1c4",
+      "name": "sss",
+      "description": "",
+      "ownerId": "local-user",
+      "defaultEnvironmentId": "03440408-9d70-4237-b4eb-a87cbbfeb548",
+      "baseHeaders": {},
+      "createdAt": "2026-04-21T00:18:18.291Z",
+      "updatedAt": "2026-04-21T00:18:18.291Z"
+    }
+  ],
+  "environments": [
+    {
+      "id": "03440408-9d70-4237-b4eb-a87cbbfeb548",
+      "name": "默认环境",
+      "variables": {
+        "API_URL": ""
+      },
+      "ownerProjectId": "60d50086-e6bd-49f3-9148-29bd45dfd1c4",
+      "isShared": false,
+      "createdAt": "2026-04-21T00:18:18.291Z",
+      "updatedAt": "2026-04-21T00:18:18.291Z"
+    }
+  ],
+  "groups": [],
+  "documents": [
+    {
+      "id": "1be5787e-7318-40fc-9ab8-94e43bb5890a",
+      "projectId": "60d50086-e6bd-49f3-9148-29bd45dfd1c4",
+      "title": "无标题文档",
+      "format": "markdown",
+      "authorId": "local-user",
+      "parentGroupId": null,
+      "sortOrder": 0,
+      "createdAt": "2026-04-21T00:18:20.317Z",
+      "updatedAt": "2026-04-21T00:19:06.862Z",
+      "path": "OxApi/documents/60d50086-e6bd-49f3-9148-29bd45dfd1c4/1be5787e-7318-40fc-9ab8-94e43bb5890a.content"
+    }
+  ]
+}
